@@ -1,0 +1,17 @@
+{
+  "name": "example-client",
+  "private": true,
+  "version": "1.0.0",
+  "license": "UNLICENSED",
+  "scripts": {
+    "build": "tsc --build",
+    "run-example": "ts-node src/index.ts"
+  },
+  "dependencies": {
+    "@aptos-labs/ts-sdk": "^1.10.0",
+    "@concordia/super-aptos-sdk": "^0.0.1",
+    "@concordia/super-json-api-client": "^0.0.1",
+    "aptos": "^1.21.0",
+    "typescript": "^5.2.2"
+  }
+}

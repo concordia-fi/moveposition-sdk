@@ -1,0 +1,26 @@
+{
+  "name": "@concordia/super-aptos-sdk",
+  "version": "0.0.1",
+  "license": "UNLICENSED",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "scripts": {
+    "build": "tsc --build",
+    "test": "yarn build && ts-mocha -t 40000 tests/*.test.ts"
+  },
+  "files": [
+    "build/**/*"
+  ],
+  "dependencies": {
+    "@aptos-labs/wallet-adapter-core": "^4.11.0",
+    "@thalalabs/router-sdk": "^3.2.1",
+    "@thalalabs/surf": "^1.7.1",
+    "@types/mocha": "^9.0.0",
+    "aptos": "^1.21.0",
+    "mocha": "^9.0.3",
+    "ts-mocha": "^10.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
+}
