@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "rootDir": "src",
+    "composite": true,
+    "lib": ["esnext", "dom"],
+    "outDir": "build",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "target": "es2020",
+    "esModuleInterop": true,
+    "skipLibCheck": true /* Skip type checking all .d.ts files. */
+  },
+  "references": [
+    { "path": "../packages/super-json-api-client" },
+    { "path": "../packages/super-aptos-sdk" }
+  ]
+}

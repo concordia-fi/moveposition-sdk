@@ -1,0 +1,12 @@
+{
+  "name": "@concordia/super-json-api-client",
+  "version": "0.0.1",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {}
+}
